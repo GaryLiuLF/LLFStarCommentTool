@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LLFStarView.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    CGRect rect = CGRectMake(20, 100, 300, 50);
+    LLFStarView *starView = [[LLFStarView alloc]initWithFrame:rect
+                                                     starSize:CGSizeZero
+                                                     starType:LLFStarTypeFloat];
+    starView.starBlock = ^(NSString *value) {
+        NSLog(@"%@",value);
+    };
+    [self.view addSubview:starView];
+    
 }
 
 

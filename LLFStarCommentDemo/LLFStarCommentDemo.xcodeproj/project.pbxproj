@@ -15,6 +15,13 @@
 		18292CCA1DED2B8500C12712 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18292CC81DED2B8500C12712 /* LaunchScreen.storyboard */; };
 		18292CD51DED2B8500C12712 /* LLFStarCommentDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18292CD41DED2B8500C12712 /* LLFStarCommentDemoTests.m */; };
 		18292CE01DED2B8500C12712 /* LLFStarCommentDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18292CDF1DED2B8500C12712 /* LLFStarCommentDemoUITests.m */; };
+		18292CEF1DED48A000C12712 /* LLFStarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18292CEE1DED48A000C12712 /* LLFStarView.m */; };
+		18292CF71DED48D400C12712 /* l_star_red.png in Resources */ = {isa = PBXBuildFile; fileRef = 18292CF11DED48D400C12712 /* l_star_red.png */; };
+		18292CF81DED48D400C12712 /* l_star_red@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18292CF21DED48D400C12712 /* l_star_red@2x.png */; };
+		18292CF91DED48D400C12712 /* l_star_red@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18292CF31DED48D400C12712 /* l_star_red@3x.png */; };
+		18292CFA1DED48D400C12712 /* l_star_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 18292CF41DED48D400C12712 /* l_star_white.png */; };
+		18292CFB1DED48D400C12712 /* l_star_white@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18292CF51DED48D400C12712 /* l_star_white@2x.png */; };
+		18292CFC1DED48D400C12712 /* l_star_white@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18292CF61DED48D400C12712 /* l_star_white@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,14 @@
 		18292CDB1DED2B8500C12712 /* LLFStarCommentDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLFStarCommentDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18292CDF1DED2B8500C12712 /* LLFStarCommentDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLFStarCommentDemoUITests.m; sourceTree = "<group>"; };
 		18292CE11DED2B8500C12712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18292CED1DED48A000C12712 /* LLFStarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLFStarView.h; sourceTree = "<group>"; };
+		18292CEE1DED48A000C12712 /* LLFStarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLFStarView.m; sourceTree = "<group>"; };
+		18292CF11DED48D400C12712 /* l_star_red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l_star_red.png; sourceTree = "<group>"; };
+		18292CF21DED48D400C12712 /* l_star_red@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "l_star_red@2x.png"; sourceTree = "<group>"; };
+		18292CF31DED48D400C12712 /* l_star_red@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "l_star_red@3x.png"; sourceTree = "<group>"; };
+		18292CF41DED48D400C12712 /* l_star_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l_star_white.png; sourceTree = "<group>"; };
+		18292CF51DED48D400C12712 /* l_star_white@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "l_star_white@2x.png"; sourceTree = "<group>"; };
+		18292CF61DED48D400C12712 /* l_star_white@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "l_star_white@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +116,7 @@
 		18292CB91DED2B8500C12712 /* LLFStarCommentDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18292CF01DED48B500C12712 /* LLFStar */,
 				18292CBD1DED2B8500C12712 /* AppDelegate.h */,
 				18292CBE1DED2B8500C12712 /* AppDelegate.m */,
 				18292CC01DED2B8500C12712 /* ViewController.h */,
@@ -138,6 +154,21 @@
 				18292CE11DED2B8500C12712 /* Info.plist */,
 			);
 			path = LLFStarCommentDemoUITests;
+			sourceTree = "<group>";
+		};
+		18292CF01DED48B500C12712 /* LLFStar */ = {
+			isa = PBXGroup;
+			children = (
+				18292CF11DED48D400C12712 /* l_star_red.png */,
+				18292CF21DED48D400C12712 /* l_star_red@2x.png */,
+				18292CF31DED48D400C12712 /* l_star_red@3x.png */,
+				18292CF41DED48D400C12712 /* l_star_white.png */,
+				18292CF51DED48D400C12712 /* l_star_white@2x.png */,
+				18292CF61DED48D400C12712 /* l_star_white@3x.png */,
+				18292CED1DED48A000C12712 /* LLFStarView.h */,
+				18292CEE1DED48A000C12712 /* LLFStarView.m */,
+			);
+			name = LLFStar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +280,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18292CFB1DED48D400C12712 /* l_star_white@2x.png in Resources */,
 				18292CCA1DED2B8500C12712 /* LaunchScreen.storyboard in Resources */,
+				18292CFC1DED48D400C12712 /* l_star_white@3x.png in Resources */,
 				18292CC71DED2B8500C12712 /* Assets.xcassets in Resources */,
 				18292CC51DED2B8500C12712 /* Main.storyboard in Resources */,
+				18292CF91DED48D400C12712 /* l_star_red@3x.png in Resources */,
+				18292CFA1DED48D400C12712 /* l_star_white.png in Resources */,
+				18292CF81DED48D400C12712 /* l_star_red@2x.png in Resources */,
+				18292CF71DED48D400C12712 /* l_star_red.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +316,7 @@
 				18292CC21DED2B8500C12712 /* ViewController.m in Sources */,
 				18292CBF1DED2B8500C12712 /* AppDelegate.m in Sources */,
 				18292CBC1DED2B8500C12712 /* main.m in Sources */,
+				18292CEF1DED48A000C12712 /* LLFStarView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +554,7 @@
 				18292CE61DED2B8500C12712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18292CE71DED2B8500C12712 /* Build configuration list for PBXNativeTarget "LLFStarCommentDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +563,7 @@
 				18292CE91DED2B8500C12712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18292CEA1DED2B8500C12712 /* Build configuration list for PBXNativeTarget "LLFStarCommentDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +572,7 @@
 				18292CEC1DED2B8500C12712 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
